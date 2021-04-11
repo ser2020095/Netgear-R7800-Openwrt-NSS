@@ -22,7 +22,7 @@ on:
 env:
   REPO_URL: https://github.com/ACwifidude/openwrt
   REPO_BRANCH: openwrt-21.02-nss-qsdk10.0
-  BRANCH: R7800-with-NSS
+  BRANCH: Netgear-R7800-Openwrt-NSS
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
@@ -36,10 +36,10 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  BUILD_USER: Mapdio
-  GITHUB_USER_NAME: mapdio
+  BUILD_USER: ser2020095
+  GITHUB_USER_NAME: ser2020095
   GITHUB_USER_EMAIL: ${{ secrets.EMAIL }}
-  GITHUB: github.com/mapdio/R7800-Openwrt-with-NSS.git
+  GITHUB: github.com/ser2020095/Netgear-R7800-Openwrt-NSS.git
   
 jobs:
   build:
@@ -184,7 +184,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
-        name: Netgear ${{ env.BRANCH }} 🚀 | 自动编译 / ${{ env.RELEASE_TAG }}
+        name: Netgear-R7800-Openwrt-NSS ${{ env.BRANCH }} 🚀 | 自动编译 / ${{ env.RELEASE_TAG }}
         tag_name: ${{ env.RELEASE_TAG }}
         body: |            
             1、本固件为自动编译
