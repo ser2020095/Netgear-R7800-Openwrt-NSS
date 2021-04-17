@@ -187,10 +187,8 @@ jobs:
         name: Netgear-R7800-Openwrt-NSS ${{ env.BRANCH }} 🚀 | 自动编译 / ${{ env.RELEASE_TAG }}
         tag_name: ${{ env.RELEASE_TAG }}
         body: |            
-            1、本固件为自动编译
-            2、发行版中只提供完整的固件
-            3、需要单独IPK请到分支下载
-            4、固件源码：${{ env.REPO_URL }}
+            * 本固件为自动编译
+            * 固件源码：${{ env.REPO_URL }}
             -- Build by ${{ env.BUILD_USER }} @ with Github Action on ${{ env.RELEASE_TAG }}
             🚀 Auto build | 自动编译    
             当前使用版本:（编译前的最后一次ACwifidude源码更新记录）   
