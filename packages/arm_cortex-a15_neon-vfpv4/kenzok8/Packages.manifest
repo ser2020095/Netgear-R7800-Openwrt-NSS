@@ -1,0 +1,154 @@
+Package: luci-app-jd-dailybonus
+Version: 1.0.5
+Depends: libc, node, uclient-fetch, lua, libuci-lua
+Source: feeds/kenzok8/luci-app-jd-dailybonus
+SourceName: luci-app-jd-dailybonus
+Section: luci
+SourceDateEpoch: 1626674102
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1083985
+Filename: luci-app-jd-dailybonus_1.0.5_all.ipk
+Size: 1084071
+SHA256sum: 5567c197ea96914e112a586592b4bdebd6600f465080c52f411f17af546bbe24
+Description:  Luci for JD dailybonus Script
+
+Package: luci-app-openclash
+Version: 0.42.06-beta
+Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, ruby, ruby-yaml
+Source: feeds/kenzok8/luci-app-openclash
+SourceName: luci-app-openclash
+Section: opt
+SourceDateEpoch: 1626674102
+Maintainer: vernesong
+Architecture: all
+Installed-Size: 2980798
+Filename: luci-app-openclash_0.42.06-beta_all.ipk
+Size: 2812841
+SHA256sum: cf57ec1b54798fe85fa10dcf0234526d8ff2e49eb9e0b5e499b42fb6390ce63b
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall
+Version: 4
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dnsmasq-full, ipset, ip-full, ipt2socks, iptables-mod-tproxy, libuci-lua, lua, luci-lib-jsonc, microsocks, tcping, resolveip, unzip, brook, chinadns-ng, dns2socks, haproxy, kcptun-client, naiveproxy, pdnsd-alt, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, trojan-go, trojan-plus, v2ray-plugin, xray-core, xray-geodata
+Source: feeds/kenzok8/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1626674102
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 811331
+Filename: luci-app-passwall_4_all.ipk
+Size: 811526
+SHA256sum: dff42440fbadc230ce3d232286c2ca3df03d234f74511eb5be1b2f494e1e041b
+Description:  LuCI support for PassWall
+
+Package: luci-app-ssr-plus
+Version: 184
+Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, libustream-openssl20201210, kcptun-client, naiveproxy, redsocks2, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, trojan, ipt2socks, curl, xray-core
+Source: feeds/kenzok8/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1626674102
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 193201
+Filename: luci-app-ssr-plus_184_all.ipk
+Size: 193471
+SHA256sum: bdce8e601657fee790bb6f28663bcb786b2ec211f238a94a02f7833208107a42
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-passwall-zh-cn
+Version: git-21.200.21302-d764eb6
+Depends: libc, luci-app-passwall
+Source: feeds/kenzok8/luci-app-passwall
+SourceName: luci-i18n-passwall-zh-cn
+Section: luci
+SourceDateEpoch: 1626674102
+Architecture: all
+Installed-Size: 9945
+Filename: luci-i18n-passwall-zh-cn_git-21.200.21302-d764eb6_all.ipk
+Size: 10807
+SHA256sum: dcbf95d953be572fff8842aa1a73c5249eb0552599a46ad58dbd4b382faa4f33
+Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: git-21.200.21302-d764eb6
+Depends: libc, luci-app-ssr-plus
+Source: feeds/kenzok8/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+SourceDateEpoch: 1626674102
+Architecture: all
+Installed-Size: 5387
+Filename: luci-i18n-ssr-plus-zh-cn_git-21.200.21302-d764eb6_all.ipk
+Size: 6221
+SHA256sum: f6a788a9c258fc54bf08028bbfe38de35e310e29c9cef44a72c8a2b759a3595d
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
+
+Package: microsocks
+Version: 1.0.2-2
+Depends: libc
+Source: feeds/kenzok8/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626674102
+Maintainer: lean
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5044
+Filename: microsocks_1.0.2-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5769
+SHA256sum: 5a467114fbdcb2692702f6a360b799263856d74fecceccdd5b47d6901ee92f46
+Description:  microsocks is a Tiny Proxy in C.
+
+Package: naiveproxy
+Version: 91.0.4472.77-1-1
+Depends: libc, libatomic1
+Source: feeds/kenzok8/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626674102
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2114197
+Filename: naiveproxy_91.0.4472.77-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2107763
+SHA256sum: da3834652bb6640678e15431da447ba7acf8390d7ad8eed94b2f0c044debe682
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Source: feeds/kenzok8/redsocks2
+SourceName: redsocks2
+Section: net
+SourceDateEpoch: 1626674102
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 52917
+Filename: redsocks2_0.67-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 53727
+SHA256sum: 854eb77595a5ac32d4ec7aa7d92cdbe589219c93ef3b9796ff2b2eb1605f1ad9
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/kenzok8/tcping
+SourceName: tcping
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1626674102
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3291
+Filename: tcping_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4008
+SHA256sum: e11fb856291a675f4bbc813bdca3e0a38e7687c94b1510d45a94866bb6494e37
+Description:  tcping measures the latency of a tcp-connection
+
