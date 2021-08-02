@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/ACwifidude/openwrt
-  REPO_BRANCH: openwrt-21.02-nss-qsdk10.0
+  REPO_URL:  https://github.com/coolsnowwolf/lede
+  REPO_BRANCH: master
   BRANCH: Netgear-R7800-Openwrt-NSS
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
