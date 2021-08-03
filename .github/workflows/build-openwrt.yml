@@ -118,18 +118,6 @@ jobs:
       if: (!cancelled())
       run: df -hT
     
-    - name: Upload Branch
-      env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-      run: |
-          cp openwrt/.config openwrt/bin/targets/ipq806x/generic/full.build.config
-          cd openwrt/bin
-          git init
-          git config user.name $GITHUB_USER_NAME
-          git config user.email $GITHUB_USER_EMAIL
-          git add .
-          git commit -m "Update OpenWrt_"$BRANCH
-          git push --force --quiet https://${{ secrets.RELEASE_TOKEN }}@$GITHUB HEAD:OpenWrt-$BRANCH
     
     - name: Upload bin directory
       uses: actions/upload-artifact@main
